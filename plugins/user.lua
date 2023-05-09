@@ -9,4 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- lets have some themes...
+  "Mofiqul/dracula.nvim",
+  "folke/tokyonight.nvim",
+  "mhartington/oceanic-next",
+  "marko-cerovac/material.nvim",
+  "EdenEast/nightfox.nvim",
+  "sainnhe/sonokai"
 }
