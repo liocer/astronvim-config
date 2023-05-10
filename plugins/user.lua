@@ -15,5 +15,7 @@ return {
   "mhartington/oceanic-next",
   "marko-cerovac/material.nvim",
   "EdenEast/nightfox.nvim",
-  "sainnhe/sonokai"
+  "sainnhe/sonokai",
+  "ellisonleao/gruvbox.nvim"
+
 }
