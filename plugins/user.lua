@@ -14,13 +14,13 @@ return {
     "Shatur/neovim-ayu",
     lazy = false,
   },
-  {
-    "marko-cerovac/material.nvim",
-    lazy = false,
-    init = function()
-      vim.g.material_style = "deep ocean" -- darker is nice too
-    end
-  },
+  -- {
+  --   "marko-cerovac/material.nvim",
+  --   lazy = false,
+  --   init = function()
+  --     vim.g.material_style = "deep ocean" -- darker is nice too
+  --   end
+  -- },
   { 
     "EdenEast/nightfox.nvim",
     lazy = false,
