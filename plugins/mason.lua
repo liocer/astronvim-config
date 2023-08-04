@@ -17,7 +17,7 @@ return {
         "bashls",
         "astro",
         "docker_compose_language_service",
-        "eslist",
+        "eslint",
         "emmet_ls",
         "dockerls",
         "jsonls",
