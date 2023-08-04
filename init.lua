@@ -19,7 +19,7 @@ return {
 
   -- Set colorscheme to use
   -- colorscheme = "tokyonight-night",
-  colorscheme = "terafox",
+  colorscheme = "duskfox",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -72,10 +72,13 @@ return {
   polish = function()
     vim.opt.linespace = 3
     -- Set up custom filetypes
-    -- vim.filetype.add {
-    --   extension = {
-    --     foo = "fooscript",
-    --   },
+    vim.filetype.add {
+      extension = {
+        mdx = "markdown.mdx",
+      },
+      filename = {},
+      pattern = {},
+    }
     --   filename = {
     --     ["Foofile"] = "fooscript",
     --   },
