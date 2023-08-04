@@ -5,12 +5,14 @@ return {
     opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
       "astro",
       "css",
+      "dockerfile",
       "html",
       "javascript",
       "lua",
       "markdown",
       "php",
-      "scss"
+      "scss",
+      "svelte",
     })
   end,
 }
