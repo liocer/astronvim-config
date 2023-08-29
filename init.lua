@@ -74,7 +74,10 @@ return {
     -- Set up custom filetypes
     vim.filetype.add {
       extension = {
+        MD = "markdown",
+        md = "markdown",
         mdx = "markdown.mdx",
+        postcss = "css",
       },
       filename = {},
       pattern = {},
